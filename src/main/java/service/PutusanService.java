@@ -300,4 +300,44 @@ public class PutusanService {
     public int jumlahRiwayat() {
         return riwayat.size();
     }
+
+    public void tampilkanDistribusiJenis() {
+        System.out.println("\n===== DISTRIBUSI JENIS NARKOTIKA =====");
+
+        for (int i = 0; i < data.size(); i++) {
+            String jenis = data.get(i).getJenisNarkotika();
+
+            if (jenis == null || jenis.isBlank()) {
+                continue;
+            }
+
+            boolean sudahDihitung = false;
+
+            for (int j = 0; j < i; j++) {
+                String sebelumnya = data.get(j).getJenisNarkotika();
+
+                if (sebelumnya != null &&
+                        sebelumnya.equalsIgnoreCase(jenis)) {
+                    sudahDihitung = true;
+                    break;
+                }
+            }
+
+            if (!sudahDihitung) {
+                int jumlah = 0;
+
+                for (int j = 0; j < data.size(); j++) {
+                    String pembanding =
+                            data.get(j).getJenisNarkotika();
+
+                    if (pembanding != null &&
+                            pembanding.equalsIgnoreCase(jenis)) {
+                        jumlah++;
+                    }
+                }
+
+                System.out.println(jenis + " : " + jumlah + " kasus");
+            }
+        }
+    }
 }
