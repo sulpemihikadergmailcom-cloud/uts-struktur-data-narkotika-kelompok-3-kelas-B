@@ -18,7 +18,6 @@ public class CsvExporter {
                     "dendaRupiah;barangBukti;keadaanMemberatkan;" +
                     "keadaanMeringankan;sourcePages";
 
-    // Export data ke CSV
     public static void exportCsv(
             Path filePath,
             DynamicArray<Putusan> records
@@ -64,7 +63,6 @@ public class CsvExporter {
         }
     }
 
-    // Export data ke TXT
     public static void exportTxt(
             Path filePath,
             DynamicArray<Putusan> records
@@ -117,7 +115,6 @@ public class CsvExporter {
         }
     }
 
-    // Mengamankan teks agar tidak merusak format CSV
     private static String escapeCsv(String value) {
         if (value == null) {
             return "";
