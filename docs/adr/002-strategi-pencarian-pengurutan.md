@@ -60,3 +60,16 @@ PutusanService.java melalui method:
 Kedua method menghasilkan objek SearchResult
 yang menyimpan data hasil pencarian, indeks,
 dan jumlah langkah pemeriksaan.
+
+## Evaluasi dan Pengembangan
+
+Linear Search dipilih karena data putusan
+tidak diwajibkan berada dalam kondisi terurut.
+
+Binary Search dapat dipertimbangkan apabila
+jumlah data meningkat dan data telah diurutkan
+berdasarkan atribut pencarian yang digunakan.
+
+Untuk kebutuhan aplikasi saat ini,
+Linear Search dinilai lebih sederhana
+dan sesuai dengan jumlah 50 data putusan.
