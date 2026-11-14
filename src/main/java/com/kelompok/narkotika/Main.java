@@ -128,8 +128,10 @@ public class Main {
         String lokasi = input.nextLine();
 
         try {
+            CsvImporter importer = new CsvImporter();
+
             CsvImporter.ImportResult hasil =
-                    CsvImporter.importCsv(Path.of(lokasi));
+                    importer.importFile(Path.of(lokasi));
 
             DynamicArray<Putusan> data = hasil.getRecords();
 

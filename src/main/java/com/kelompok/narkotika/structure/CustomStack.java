@@ -1,15 +1,14 @@
-package com.kelompok.narkotika.structure;
 
-import java.util.Objects;
+package com.kelompok.narkotika.structure;
 
 public class CustomStack<T> {
 
-    private Objects[] data;
+    private Object[] data;
     private int top;
     private static final int DEFAULT_CAPACITY = 10;
 
     public CustomStack() {
-        data = new Objects[DEFAULT_CAPACITY];
+        data = new Object[DEFAULT_CAPACITY];
         top = -1;
     }
 
@@ -20,7 +19,7 @@ public class CustomStack<T> {
             );
         }
 
-        data = new Objects[capacity];
+        data = new Object[capacity];
         top = -1;
     }
 
@@ -28,9 +27,10 @@ public class CustomStack<T> {
         if (top == data.length - 1) {
             Object[] newData = new Object[data.length * 2];
 
-            for (int i = 0; i < data.length; i++){
+            for (int i = 0; i < data.length; i++) {
                 newData[i] = data[i];
             }
+
             data = newData;
         }
     }
@@ -49,7 +49,6 @@ public class CustomStack<T> {
             );
         }
 
-
         T value = (T) data[top];
         data[top] = null;
         top--;
@@ -58,7 +57,7 @@ public class CustomStack<T> {
     }
 
     @SuppressWarnings("unchecked")
-    public  T peek() {
+    public T peek() {
         if (isEmpty()) {
             throw new IllegalStateException(
                     "Stack kosong"

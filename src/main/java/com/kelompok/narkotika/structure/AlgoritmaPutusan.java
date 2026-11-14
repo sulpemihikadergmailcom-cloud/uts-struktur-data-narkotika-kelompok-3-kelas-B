@@ -9,8 +9,9 @@ public class AlgoritmaPutusan {
     private AlgoritmaPutusan() {
     }
 
+    // LINEAR SEARCH
     public static <T> int linearSearch(
-            DynamicArray<T> array,
+            com.kelompok.narkotika.structure.DynamicArray<T> array,
             T target
     ) {
         for (int i = 0; i < array.size(); i++) {
@@ -21,8 +22,9 @@ public class AlgoritmaPutusan {
         return -1;
     }
 
+    // BINARY SEARCH
     public static <T> int binarySearch(
-            DynamicArray<T> array,
+            com.kelompok.narkotika.structure.DynamicArray<T> array,
             T target,
             Comparator<? super T> comparator
     ) {
@@ -44,15 +46,15 @@ public class AlgoritmaPutusan {
                 kanan = tengah - 1;
             }
         }
-
         return -1;
     }
 
+    // INSERTION SORT
     public static <T> void insertionSort(
-            DynamicArray<T> array,
+            com.kelompok.narkotika.structure.DynamicArray<T> array,
             Comparator<? super T> comparator
     ) {
-        for (int i = 1; i < array.size; i++) {
+        for (int i = 1; i < array.size(); i++) {
             T key = array.get(i);
             int j = i - 1;
 
@@ -66,8 +68,9 @@ public class AlgoritmaPutusan {
         }
     }
 
+    // MERGE SORT
     public static <T> void mergeSort(
-            DynamicArray<T> array,
+            com.kelompok.narkotika.structure.DynamicArray<T> array,
             Comparator<? super T> comparator
     ) {
         if (array.size() <= 1) {
@@ -82,7 +85,7 @@ public class AlgoritmaPutusan {
     }
 
     private static <T> void mergeSortRecursive(
-            DynamicArray<T> array,
+            com.kelompok.narkotika.structure.DynamicArray<T> array,
             Object[] temporary,
             int left,
             int right,
@@ -102,14 +105,12 @@ public class AlgoritmaPutusan {
                 array, temporary, middle + 1, right, comparator
         );
 
-        merge(
-                array, temporary, left, middle, right, comparator
-        );
+        merge(array, temporary, left, middle, right, comparator);
     }
 
     @SuppressWarnings("unchecked")
     private static <T> void merge(
-            DynamicArray<T> array,
+            com.kelompok.narkotika.structure.DynamicArray<T> array,
             Object[] temporary,
             int left,
             int middle,

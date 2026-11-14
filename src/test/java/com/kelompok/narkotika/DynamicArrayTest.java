@@ -1,3 +1,4 @@
+
 package com.kelompok.narkotika;
 
 import com.kelompok.narkotika.structure.DynamicArray;
@@ -8,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class DynamicArrayTest {
 
     @Test
-    void testAssAndGet() {
+    void testAddAndGet() {
         DynamicArray<String> array = new DynamicArray<>();
 
         array.add("Putusan 1");
@@ -20,7 +21,7 @@ class DynamicArrayTest {
     }
 
     @Test
-    void testRemove() {
+    void testInsert() {
         DynamicArray<String> array = new DynamicArray<>();
 
         array.add("Putusan 1");
@@ -45,7 +46,7 @@ class DynamicArrayTest {
     }
 
     @Test
-    void testRemove() {
+    void testContains() {
         DynamicArray<String> array = new DynamicArray<>();
 
         array.add("Putusan 1");
@@ -64,5 +65,4 @@ class DynamicArrayTest {
         assertTrue(array.isEmpty());
         assertEquals(0, array.size());
     }
-
 }

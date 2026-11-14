@@ -18,15 +18,10 @@ public class AlgoritmaPutusanTest {
         array.add(20);
         array.add(30);
 
-        assertEquals(
-                1,
-                AlgoritmaPutusan.linearSearch(array, 20)
-        );
-        assertEquals(
-                -1,
-                AlgoritmaPutusan.linearSearch(array, 40)
-        );
+        assertEquals(1, AlgoritmaPutusan.linearSearch(array, 20));
+        assertEquals(-1, AlgoritmaPutusan.linearSearch(array, 40));
     }
+
     @Test
     void testBinarySearch() {
         DynamicArray<Integer> array = new DynamicArray<>();
@@ -36,19 +31,15 @@ public class AlgoritmaPutusanTest {
         array.add(30);
         array.add(40);
 
-        assertEquals(
-                2,
-                AlgoritmaPutusan.binarySearch(
-                        array, 30, Comparator.naturalOrder()
-                )
-        );
-        assertEquals(
-                -1,
-                AlgoritmaPutusan.binarySearch(
-                        array, 50, Comparator.naturalOrder()
-                )
-        );
+        assertEquals(2, AlgoritmaPutusan.binarySearch(
+                array, 30, Comparator.naturalOrder()
+        ));
+
+        assertEquals(-1, AlgoritmaPutusan.binarySearch(
+                array, 50, Comparator.naturalOrder()
+        ));
     }
+
     @Test
     void testInsertionSort() {
         DynamicArray<Integer> array = new DynamicArray<>();
