@@ -27,7 +27,10 @@
 -Melakukan pengujian serta pemeriksaan hasil implementasi struktur data.
 
 **Bukti kontribusi:**
-- GitHub Issues: [Tautan Issue]
+- GitHub Issues: - GitHub Issues:
+  1. [Issue #5 – DynamicArray](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/5)
+  2. [Issue #6 – CustomStack](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/6)
+  3. [Issue #8 – CustomQueue](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/8)
 - Pull Requests: [Tautan PR]
 - Commits: - Commits:
 1. [Implementasi Invariant DynamicArray](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/c09d1f10f177d86370b48a769aef234ab1f4f3b4)
