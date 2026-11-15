@@ -1,13 +1,13 @@
-
 package com.kelompok.narkotika;
 
-import model.Putusan;
-import service.PutusanService;
+import com.kelompok.narkotika.model.Putusan;
+import com.kelompok.narkotika.service.PutusanService;
 import com.kelompok.narkotika.structure.DynamicArray;
-import util.CsvImporter;
-import util.CsvExporter;
+import com.kelompok.narkotika.util.CsvImporter;
+import com.kelompok.narkotika.util.CsvExporter;
 
 import java.nio.file.Path;
+import java.nio.file.Files;
 import java.util.Scanner;
 
 public class Main {
@@ -123,15 +123,25 @@ public class Main {
     }
 
 
+
     private static void importData() {
-        System.out.print("Masukkan lokasi file CSV: ");
-        String lokasi = input.nextLine();
+        System.out.println("\n===== IMPORT DATA CSV =====");
+
+        Path fileCSV = Path.of("data", "putusan-50.csv");
 
         try {
+            // Periksa apakah file tersedia
+            if (!Files.exists(fileCSV)) {
+                System.out.println("File CSV tidak ditemukan!");
+                System.out.println("Lokasi yang dicari: "
+                        + fileCSV.toAbsolutePath());
+                return;
+            }
+
             CsvImporter importer = new CsvImporter();
 
             CsvImporter.ImportResult hasil =
-                    importer.importFile(Path.of(lokasi));
+                    importer.importFile(fileCSV);
 
             DynamicArray<Putusan> data = hasil.getRecords();
 
@@ -139,7 +149,9 @@ public class Main {
             int ditolak = 0;
 
             for (int i = 0; i < data.size(); i++) {
-                if (service.tambahPutusan(data.get(i))) {
+                Putusan p = data.get(i);
+
+                if (service.tambahPutusan(p)) {
                     berhasil++;
                 } else {
                     ditolak++;
@@ -148,6 +160,7 @@ public class Main {
 
             ditolak += hasil.getErrors().size();
 
+            System.out.println("\nImport selesai!");
             System.out.println("Data berhasil ditambahkan: " + berhasil);
             System.out.println("Data ditolak: " + ditolak);
 
@@ -159,6 +172,7 @@ public class Main {
             System.out.println("Gagal import: " + e.getMessage());
         }
     }
+
 
     private static void tampilkanData() {
         DynamicArray<Putusan> data = service.getAll();

@@ -1,4 +1,4 @@
-package model;
+package com.kelompok.narkotika.model;
 
 import java.time.LocalDate;
 
@@ -31,7 +31,7 @@ public class Putusan {
             String jenisNarkotika,
             double beratBarangBukti,
             String pasalDakwaan,
-            String pasalterbukti,
+            String pasalTerbukti,
             int tuntutanBulan,
             int vonisBulan,
             long dendaRupiah,
@@ -59,7 +59,7 @@ public class Putusan {
         this.tanggalPutusan = tanggalPutusan;
         this.terdakwaKode = clean(terdakwaKode);
         this.jenisNarkotika = clean(jenisNarkotika);
-        this.beratBarangBuktiGram = beratBarangBuktiGram;
+        this.beratBarangBuktiGram = beratBarangBukti;
         this.pasalDakwaan = clean(pasalDakwaan);
         this.pasalTerbukti = clean(pasalTerbukti);
         this.tuntutanBulan = tuntutanBulan;
@@ -217,7 +217,7 @@ public class Putusan {
         return "Case ID: " + caseId +
                 "\nNomor Perkara: " + nomorPerkara +
                 "\nPengadilan: " + pengadilan +
-                "\nTanggal Putusan: " + tanggalPutusan +
+                "\nTanggal Putusan: " + tanggalPutusan +"\nPasal Terbukti: " + pasalTerbukti +
                 "\nTerdakwa: " + terdakwaKode +
                 "\nJenis Narkotika: " + jenisNarkotika +
                 "\nBerat Barang Bukti: " + beratBarangBuktiGram + " gram" +
