@@ -31,7 +31,9 @@
   1. [Issue #5 – DynamicArray](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/5)
   2. [Issue #6 – CustomStack](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/6)
   3. [Issue #8 – CustomQueue](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/8)
-- Pull Requests: [Tautan PR]
+- Pull Requests: - Pull Requests:
+  1. [PR #7 – CustomStack](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/pull/7)
+  2. [PR #9 – CustomQueue](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/pull/9)
 - Commits: - Commits:
 1. [Implementasi Invariant DynamicArray](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/c09d1f10f177d86370b48a769aef234ab1f4f3b4)
 2. [Implementasi Stack Preserve Search](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/2ab28b33954847640c3dedc80aa6617e6afd09de)
