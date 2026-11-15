@@ -19,6 +19,12 @@
 - Mengembangkan bagian struktur data dan fitur aplikasi sesuai pembagian tugas kelompok.
 - Membantu pengujian dan pemeriksaan hasil implementasi.
 - Menyusun dokumentasi teknis sesuai tanggung jawabnya.
+- Mengembangkan dan mengimplementasikan struktur data CustomQueue.
+-Mengembangkan dan memperbaiki implementasi CustomStack.
+-Menambahkan validasi invariant pada DynamicArray dan CustomStack.
+-Mengimplementasikan fitur searchPreserve() dan restore() pada CustomStack.
+-Menyusun dan menambahkan unit test untuk DynamicArray dan CustomStack.
+-Melakukan pengujian serta pemeriksaan hasil implementasi struktur data.
 
 **Bukti kontribusi:**
 - GitHub Issues: [Tautan Issue]
