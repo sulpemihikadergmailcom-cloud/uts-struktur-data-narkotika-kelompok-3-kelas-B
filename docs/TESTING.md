@@ -2,9 +2,7 @@
 
 ## Pengujian PutusanService
 
-Pengujian dilakukan menggunakan JUnit 5
-untuk memastikan fungsi PutusanService berjalan
-sesuai kebutuhan aplikasi.
+Pengujian dilakukan menggunakan JUnit 5 untuk memastikan fungsi PutusanService berjalan sesuai kebutuhan aplikasi.
 
 ## Skenario Pengujian
 
@@ -24,10 +22,8 @@ sesuai kebutuhan aplikasi.
 
 ## Hasil Pengujian
 
-Pengujian dijalankan menggunakan Maven
-dengan perintah:
+Pengujian dijalankan menggunakan Maven dengan perintah:
 
 mvn test
 
-Hasil aktual pengujian dicatat berdasarkan
-laporan yang muncul setelah proses pengujian selesai.
+Hasil aktual pengujian dicatat berdasarkan laporan yang muncul setelah proses pengujian selesai.

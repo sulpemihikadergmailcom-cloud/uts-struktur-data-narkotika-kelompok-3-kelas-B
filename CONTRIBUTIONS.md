@@ -2,19 +2,19 @@
 
 ## 1. Identitas Kelompok
 
-- **Nama Proyek:** Aplikasi Pengelolaan Data Putusan Pengadilan Narkotika
-- **Mata Kuliah:** Struktur Data
-- **Kelas:** B
-- **Repository:** https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B
-- **Jumlah Anggota:** 2 mahasiswa
+- Nama Proyek: Aplikasi Pengelolaan Data Putusan Pengadilan Narkotika
+- Mata Kuliah: Struktur Data
+- Kelas: B
+- Repository: https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B
+- Jumlah Anggota: 2 mahasiswa
 
 ## 2. Pembagian Kontribusi Anggota
 
 ### Anggota 1
-- **Nama:** Sulpemi HI Kader
-- **GitHub:** sulpemihikadergmailcom-cloud
+- Nama: Sulpemi HI Kader
+- GitHub: sulpemihikadergmailcom-cloud
 
-**Kontribusi:**
+Kontribusi:
 - Melakukan ekstraksi dan verifikasi data putusan pengadilan.
 - Mengembangkan bagian struktur data dan fitur aplikasi sesuai pembagian tugas kelompok.
 - Membantu pengujian dan pemeriksaan hasil implementasi.
@@ -26,50 +26,51 @@
 -Menyusun dan menambahkan unit test untuk DynamicArray dan CustomStack.
 -Melakukan pengujian serta pemeriksaan hasil implementasi struktur data.
 
-**Bukti kontribusi:**
-- GitHub Issues: - GitHub Issues:
+Bukti kontribusi:
+- GitHub Issues:
   1. [Issue #5 – DynamicArray](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/5)
   2. [Issue #6 – CustomStack](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/6)
   3. [Issue #8 – CustomQueue](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/8)
-- Pull Requests: - Pull Requests:
+- Pull Requests: 
   1. [PR #7 – CustomStack](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/pull/7)
   2. [PR #9 – CustomQueue](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/pull/9)
-- Commits: - Commits:
+- Commits: 
 1. [Implementasi Invariant DynamicArray](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/c09d1f10f177d86370b48a769aef234ab1f4f3b4)
 2. [Implementasi Stack Preserve Search](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/2ab28b33954847640c3dedc80aa6617e6afd09de)
-3. - **Commits:**
-4. [Commit 1](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/ad2a95843c71e0eb0f364dfa0b133ba6b3e1503b)
-5. [Commit 2](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/2ab28b33954847640c3dedc80aa6617e6afd09de)
-6. [Commit 3](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/1e54074627d76552ec980dc9108cec36677aad19)
-7. [Commit 4](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/93c03f29410be267ea7ca091e94d26b7d4a6b430)
-8. [Commit 5](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/6404ac83071ac158ec77545821be2b3e98cd43c9)
-9. [Commit 6](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/5588b4ff957594121591a787d0e68cdbc3a7d57e)
-10 [Commit 7](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/5b84587d7d360beee73b2d05eb76cd9de1d3b021)
-11. [Commit 8](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/d4ce5890a65f25698ba9221a163ba96acaca3d3b)
-12. [Commit 9](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/98f0c2b2cf4fbb3316f8518ffec626d31404512c)
-13 [Commit 10](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/98586b84b723545d57b03904761c46172667d266)
-- Reviews:- **Reviews (review yang diberikan kepada Anggota 2):**
+3[Commit 1](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/ad2a95843c71e0eb0f364dfa0b133ba6b3e1503b)
+4[Commit 2](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/2ab28b33954847640c3dedc80aa6617e6afd09de)
+5[Commit 3](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/1e54074627d76552ec980dc9108cec36677aad19)
+6[Commit 4](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/93c03f29410be267ea7ca091e94d26b7d4a6b430)
+7[Commit 5](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/6404ac83071ac158ec77545821be2b3e98cd43c9)
+8[Commit 6](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/5588b4ff957594121591a787d0e68cdbc3a7d57e)
+9 [Commit 7](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/5b84587d7d360beee73b2d05eb76cd9de1d3b021)
+10[Commit 8](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/d4ce5890a65f25698ba9221a163ba96acaca3d3b)
+11[Commit 9](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/98f0c2b2cf4fbb3316f8518ffec626d31404512c)
+12 [Commit 10](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/98586b84b723545d57b03904761c46172667d266)
+- Reviews:- Reviews (review yang diberikan kepada Anggota 2):
   1. [Review PR #1](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/pull/1)
   2. [Review PR #2](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/pull/2)
   3. [Review PR #3](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/pull/3)
-### Anggota 2
-- **Nama:** Nurul Deby heryani
-- **GitHub:** nuruldebyheryani-dot
 
-**Kontribusi:**
+
+### Anggota 2
+- Nama: Nurul Deby Heryani
+- GitHub: nuruldebyheryani-dot
+
+Kontribusi:
 - Mengembangkan pengelolaan data putusan menggunakan Dynamic Array.
 - Mengimplementasikan fitur tambah, hapus, pencarian, filter, agregasi, pengurutan, dan riwayat operasi.
 - Mengembangkan fitur impor dan ekspor data CSV/TXT.
 - Menyusun dan menjalankan pengujian aplikasi.
 - Menyusun dokumentasi README, AI_USAGE, dokumentasi pengujian, serta bukti demonstrasi aplikasi.
 
-**Bukti kontribusi:**
+Bukti kontribusi:
 - GitHub Issues – Anggota 2
-1. **Implement CSV Import and TXT/CSV Export** – https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/11
-2. **Implement Putusan Data Management and Search** – https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/12
-3. **Implement Putusan Filtering and Data Statistics** – https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/13
-4. **Implement Operation History and Application Testing** – https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/14
-5. **Improve Data Management, Validation, and Testing** – https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/10
+1. Implement CSV Import and TXT/CSV Export – https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/11
+2. Implement Putusan Data Management and Search – https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/12
+3. Implement Putusan Filtering and Data Statistics – https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/13
+4. Implement Operation History and Application Testing – https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/14
+5. Improve Data Management, Validation, and Testing – https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/issues/10
 - Pull Requests: 
 1. https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/pull/1
 2. https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/pull/2

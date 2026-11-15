@@ -49,4 +49,24 @@ Data dummy tidak digunakan sebagai bagian dari dataset final.
 
 ## 4. Kesimpulan
 
-Berdasarkan pengujian unit dan peng
+Berdasarkan pengujian unit menggunakan JUnit 5 dan pengujian fungsional secara manual, aplikasi Sistem Pengelolaan Data Putusan Narkotika telah berhasil menjalankan fitur-fitur utama yang tersedia.
+
+Hasil pengujian unit menunjukkan bahwa seluruh 13 test pada `PutusanServiceTest` berhasil dijalankan dengan 13 test berhasil dan 0 test gagal.
+
+Pengujian fungsional secara manual juga menunjukkan bahwa fitur impor data, penampilan data, pencarian, penyaringan, statistik, pengurutan, penambahan, penghapusan, ekspor, dan riwayat aktivitas dapat dijalankan sesuai hasil yang dicatat pada tabel pengujian.
+
+Pengujian penambahan dan penghapusan menggunakan data dummy `KDR-051` juga berhasil dilakukan. Data dummy tersebut telah dihapus kembali sehingga tidak menjadi bagian dari dataset final.
+
+### Catatan Pengujian Lanjutan
+
+Pengujian fungsional di atas belum secara otomatis membuktikan bahwa seluruh tujuh skenario wajib pada Panduan UTS telah terpenuhi. Oleh karena itu, beberapa skenario masih perlu diperiksa dan dilengkapi bukti pengujiannya, yaitu:
+
+1. Membuktikan jumlah data tepat 50 menggunakan pemeriksaan `size()`.
+2. Menguji pencarian data yang ditemukan, tidak ditemukan, dan data pada posisi batas.
+3. Menguji penghapusan elemen pertama, tengah, dan terakhir.
+4. Menguji penambahan tiga record sekaligus serta memeriksa invariant dan urutan data.
+5. Menguji filter gabungan dan mencocokkan hasilnya dengan provenance secara manual.
+6. Membuktikan pencarian pada Stack atau Queue tidak mengubah urutan akhir.
+7. Menguji impor record tidak valid dan memastikan struktur data tetap konsisten.
+
+Hasil ketujuh skenario tersebut harus dilengkapi berdasarkan pengujian yang benar-benar dilakukan. Tidak ada skenario yang dinyatakan berhasil sebelum pengujian dan bukti pendukungnya tersedia.
