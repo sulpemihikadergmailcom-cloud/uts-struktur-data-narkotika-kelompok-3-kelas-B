@@ -138,4 +138,12 @@ public class CustomStack<T> {
             System.out.println(data[i]);
         }
     }
+    public boolean search(T value) {
+        for (int i = top; i >= 0; i--) {
+            if (data[i].equals(value)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
