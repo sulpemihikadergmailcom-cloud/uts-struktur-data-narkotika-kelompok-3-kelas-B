@@ -1,4 +1,4 @@
-# CONTRIBUTIONS
+# CONTRIBUTIONS.
 
 ## 1. Identitas Kelompok
 
