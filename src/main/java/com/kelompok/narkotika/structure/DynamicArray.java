@@ -116,6 +116,20 @@ public class DynamicArray<T> implements StrukturData<T> {
         }
     }
 
+    public boolean validateInvariant() {
+        if (size < 0 || size > data.length) {
+            return false;
+        }
+
+        for (int i = size; i < data.length; i++) {
+            if (data[i] != null) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
     public void display() {
         System.out.println(Arrays.toString(Arrays.copyOf(data, size)));
     }
