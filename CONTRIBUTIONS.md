@@ -43,8 +43,10 @@
 11. [Commit 8](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/d4ce5890a65f25698ba9221a163ba96acaca3d3b)
 12. [Commit 9](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/98f0c2b2cf4fbb3316f8518ffec626d31404512c)
 13 [Commit 10](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/98586b84b723545d57b03904761c46172667d266)
-- Reviews: [Tautan review yang diberikan]
-
+- Reviews:- **Reviews (review yang diberikan kepada Anggota 2):**
+  1. [Review PR #1](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/pull/1)
+  2. [Review PR #2](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/pull/2)
+  3. [Review PR #3](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/pull/3)
 ### Anggota 2
 - **Nama:** Nurul Deby heryani
 - **GitHub:** nuruldebyheryani-dot
