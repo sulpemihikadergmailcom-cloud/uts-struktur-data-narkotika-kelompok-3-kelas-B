@@ -29,7 +29,9 @@
 **Bukti kontribusi:**
 - GitHub Issues: [Tautan Issue]
 - Pull Requests: [Tautan PR]
-- Commits: [Tautan commit]
+- Commits: - Commits:
+1. [Implementasi Invariant DynamicArray](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/c09d1f10f177d86370b48a769aef234ab1f4f3b4)
+2. [Implementasi Stack Preserve Search](https://github.com/sulpemihikadergmailcom-cloud/uts-struktur-data-narkotika-kelompok-3-kelas-B/commit/2ab28b33954847640c3dedc80aa6617e6afd09de)
 - Reviews: [Tautan review yang diberikan]
 
 ### Anggota 2
