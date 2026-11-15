@@ -1,7 +1,6 @@
+package com.kelompok.narkotika.service;
 
-package service;
-
-import model.Putusan;
+import com.kelompok.narkotika.model.Putusan;
 import com.kelompok.narkotika.structure.DynamicArray;
 import com.kelompok.narkotika.structure.CustomStack;
 
@@ -155,11 +154,19 @@ public class PutusanService {
     public DynamicArray<Putusan> filterPasalTerbukti(String pasal) {
         DynamicArray<Putusan> hasil = new DynamicArray<>();
 
+        if (pasal == null || pasal.isBlank()) {
+            return hasil;
+        }
+
+        String kataKunci = pasal.trim().toLowerCase();
+
         for (int i = 0; i < data.size(); i++) {
             Putusan p = data.get(i);
 
-            if (p.getPasalTerbukti() != null &&
-                    p.getPasalTerbukti().equalsIgnoreCase(pasal)) {
+            String pasalData = p.getPasalTerbukti();
+
+            if (pasalData != null &&
+                    pasalData.toLowerCase().contains(kataKunci)) {
                 hasil.add(p);
             }
         }
@@ -219,9 +226,14 @@ public class PutusanService {
                 }
             }
 
-            if (pasal != null &&
-                    !p.getPasalTerbukti().equalsIgnoreCase(pasal)) {
-                cocok = false;
+            if (pasal != null && !pasal.isBlank()) {
+                String pasalData = p.getPasalTerbukti();
+
+                if (pasalData == null ||
+                        !pasalData.toLowerCase().contains(
+                                pasal.trim().toLowerCase())) {
+                    cocok = false;
+                }
             }
 
             if (vonisMinimum != null && vonisMaksimum != null) {

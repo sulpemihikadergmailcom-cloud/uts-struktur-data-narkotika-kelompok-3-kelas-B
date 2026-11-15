@@ -1,6 +1,6 @@
-package util;
+package com.kelompok.narkotika.util;
 
-import model.Putusan;
+import com.kelompok.narkotika.model.Putusan;
 import com.kelompok.narkotika.structure.DynamicArray;
 
 import java.io.BufferedReader;
@@ -173,7 +173,7 @@ public class CsvImporter {
         String keadaanMeringankan = c.get(14).trim();
         String sourcePages = c.get(15).trim();
 
-        return new Putusan(
+        Putusan hasil = new Putusan(
                 caseId,
                 nomorPerkara,
                 pengadilan,
@@ -191,6 +191,8 @@ public class CsvImporter {
                 keadaanMeringankan,
                 sourcePages
         );
+
+        return hasil;
     }
 
     private LocalDate parseDate(String value) {

@@ -1,6 +1,6 @@
-package util;
+package com.kelompok.narkotika.util;
 
-import model.Putusan;
+import com.kelompok.narkotika.model.Putusan;
 import com.kelompok.narkotika.structure.DynamicArray;
 
 import java.io.BufferedWriter;
@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
-
 public class CsvExporter {
 
     private static final String HEADER =

@@ -1,4 +1,4 @@
-package model;
+package com.kelompok.narkotika.model;
 
 import java.time.LocalDate;
 
@@ -15,7 +15,7 @@ public class Putusan {
     private String pasalDakwaan;
     private String pasalTerbukti;
     private int tuntutanBulan;
-    private long vonisBulan;
+    private int vonisBulan;
     private long dendaRupiah;
     private String barangBukti;
     private String keadaanMemberatkan;
@@ -31,7 +31,7 @@ public class Putusan {
             String jenisNarkotika,
             double beratBarangBukti,
             String pasalDakwaan,
-            String pasalterbukti,
+            String pasalTerbukti,
             int tuntutanBulan,
             int vonisBulan,
             long dendaRupiah,
@@ -59,7 +59,7 @@ public class Putusan {
         this.tanggalPutusan = tanggalPutusan;
         this.terdakwaKode = clean(terdakwaKode);
         this.jenisNarkotika = clean(jenisNarkotika);
-        this.beratBarangBuktiGram = beratBarangBuktiGram;
+        this.beratBarangBuktiGram = beratBarangBukti;
         this.pasalDakwaan = clean(pasalDakwaan);
         this.pasalTerbukti = clean(pasalTerbukti);
         this.tuntutanBulan = tuntutanBulan;
@@ -115,7 +115,7 @@ public class Putusan {
         return tuntutanBulan;
     }
 
-    public long getVonisBulan() {
+    public int getVonisBulan() {
         return vonisBulan;
     }
 
@@ -182,7 +182,7 @@ public class Putusan {
         this.tuntutanBulan = tuntutanBulan;
     }
 
-    public void setVonisBulan(long vonisBulan) {
+    public void setVonisBulan(int vonisBulan) {
         if (vonisBulan < 0) {
             throw new IllegalArgumentException("Vonis tidak boleh negatif");
         }
@@ -217,7 +217,7 @@ public class Putusan {
         return "Case ID: " + caseId +
                 "\nNomor Perkara: " + nomorPerkara +
                 "\nPengadilan: " + pengadilan +
-                "\nTanggal Putusan: " + tanggalPutusan +
+                "\nTanggal Putusan: " + tanggalPutusan +"\nPasal Terbukti: " + pasalTerbukti +
                 "\nTerdakwa: " + terdakwaKode +
                 "\nJenis Narkotika: " + jenisNarkotika +
                 "\nBerat Barang Bukti: " + beratBarangBuktiGram + " gram" +

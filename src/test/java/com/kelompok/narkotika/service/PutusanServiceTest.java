@@ -1,6 +1,6 @@
-package service;
+package com.kelompok.narkotika.service;
 
-import model.Putusan;
+import com.kelompok.narkotika.model.Putusan;
 import com.kelompok.narkotika.structure.DynamicArray;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -9,7 +9,6 @@ import org.junit.jupiter.api.Test;
 import java.time.LocalDate;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 class PutusanServiceTest {
 
     private PutusanService service;
