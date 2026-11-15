@@ -9,7 +9,7 @@ public class CustomStackTest {
 
     @Test
     void testPushAndPeek() {
-        CustomStack<String> stack = new com.kelompok.narkotika.structure.CustomStack<>();
+        CustomStack<String> stack = new CustomStack<>();
 
         stack.push("Tambah");
         stack.push("Hapus");
@@ -29,6 +29,7 @@ public class CustomStackTest {
         assertEquals("Tambah", stack.peek());
         assertEquals(1, stack.size());
     }
+
     @Test
     void testIsEmpty() {
         CustomStack<String> stack = new CustomStack<>();
@@ -71,5 +72,53 @@ public class CustomStackTest {
                 IllegalStateException.class,
                 stack::peek
         );
+    }
+
+    // TEST TAMBAHAN DARI DEBY
+
+    @Test
+    void testValidateInvariant() {
+        CustomStack<String> stack = new CustomStack<>();
+
+        assertTrue(stack.validateInvariant());
+
+        stack.push("A");
+        stack.push("B");
+
+        assertTrue(stack.validateInvariant());
+
+        stack.pop();
+
+        assertTrue(stack.validateInvariant());
+    }
+
+    @Test
+    void testSearchPreserveFound() {
+        CustomStack<String> stack = new CustomStack<>();
+
+        stack.push("A");
+        stack.push("B");
+        stack.push("C");
+
+        assertTrue(stack.searchPreserve("B"));
+
+        assertEquals("C", stack.pop());
+        assertEquals("B", stack.pop());
+        assertEquals("A", stack.pop());
+    }
+
+    @Test
+    void testSearchPreserveNotFound() {
+        CustomStack<String> stack = new CustomStack<>();
+
+        stack.push("A");
+        stack.push("B");
+        stack.push("C");
+
+        assertFalse(stack.searchPreserve("D"));
+
+        assertEquals("C", stack.pop());
+        assertEquals("B", stack.pop());
+        assertEquals("A", stack.pop());
     }
 }
