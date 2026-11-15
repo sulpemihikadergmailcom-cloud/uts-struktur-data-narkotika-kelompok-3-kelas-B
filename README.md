@@ -107,3 +107,86 @@ Tugas dan Tanggung Jawab:
 - Menyusun dokumentasi README.md dan ADR strategi pencarian.
 - Melakukan review Pull Request dari Anggota 1.
 
+## Build Project
+
+Proyek ini menggunakan Maven dan Java 17.
+
+Pastikan Java 17 dan Maven sudah terpasang sebelum menjalankan perintah berikut.
+
+Untuk membersihkan hasil build sebelumnya dan membangun proyek, jalankan:
+
+```bash
+mvn clean package
+```
+
+Jika proses berhasil, file hasil kompilasi akan tersedia di folder `target/`.
+
+## Menjalankan Pengujian
+
+Pengujian otomatis menggunakan JUnit 5.
+
+Jalankan seluruh unit test dengan perintah:
+
+```bash
+mvn clean test
+```
+
+Untuk menjalankan proses pengujian tanpa membersihkan hasil build sebelumnya:
+
+```bash
+mvn test
+```
+
+Laporan pengujian dapat diperiksa pada:
+
+```text
+target/surefire-reports/
+```
+
+## Menjalankan Aplikasi
+
+### Melalui IntelliJ IDEA
+
+1. Buka proyek menggunakan IntelliJ IDEA.
+2. Pastikan Project SDK menggunakan Java 17.
+3. Buka file `Main.java` pada package `com.kelompok.narkotika`.
+4. Jalankan method `main()`.
+5. Aplikasi akan menampilkan menu pada console.
+6. Pilih nomor menu sesuai fitur yang ingin digunakan.
+
+### Melalui Terminal
+
+Kompilasi seluruh source code:
+
+```bash
+mvn compile
+```
+
+Setelah kompilasi berhasil, aplikasi dapat dijalankan melalui konfigurasi Run IntelliJ IDEA dengan memilih class `com.kelompok.narkotika.Main`.
+
+## Contoh Perintah Maven
+
+| Perintah | Fungsi |
+|---|---|
+| `mvn clean` | Membersihkan hasil build sebelumnya |
+| `mvn compile` | Mengompilasi source code |
+| `mvn test` | Menjalankan unit test |
+| `mvn clean test` | Membersihkan dan menjalankan pengujian |
+| `mvn package` | Membuat hasil build proyek |
+| `mvn clean package` | Membersihkan dan membangun proyek |
+
+## Lokasi Dataset dan Hasil Ekspor
+
+Dataset utama berada pada:
+
+```text
+data/putusan-50.csv
+```
+
+Dokumentasi provenance berada pada:
+
+```text
+docs/data-provenance.csv
+```
+
+File hasil ekspor CSV dan TXT disimpan sesuai lokasi yang ditentukan melalui fitur ekspor aplikasi.
