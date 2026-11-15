@@ -15,7 +15,7 @@ public class Putusan {
     private String pasalDakwaan;
     private String pasalTerbukti;
     private int tuntutanBulan;
-    private long vonisBulan;
+    private int vonisBulan;
     private long dendaRupiah;
     private String barangBukti;
     private String keadaanMemberatkan;
@@ -115,7 +115,7 @@ public class Putusan {
         return tuntutanBulan;
     }
 
-    public long getVonisBulan() {
+    public int getVonisBulan() {
         return vonisBulan;
     }
 
@@ -182,7 +182,7 @@ public class Putusan {
         this.tuntutanBulan = tuntutanBulan;
     }
 
-    public void setVonisBulan(long vonisBulan) {
+    public void setVonisBulan(int vonisBulan) {
         if (vonisBulan < 0) {
             throw new IllegalArgumentException("Vonis tidak boleh negatif");
         }
